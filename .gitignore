@@ -1,0 +1,66 @@
+# SDKs & Tool Installations in root
+/flutter/
+/Git/
+
+# Virtual Environments
+.venv/
+venv/
+backend/venv/
+*/venv/
+*/.venv/
+
+# Stray pip site-packages in workspace root and subfolders
+/chromadb/
+/chromadb_rust_bindings/
+/fastapi/
+/fastapi_cli/
+/fastapi_cloud_cli/
+/flask/
+/minio/
+/paddle/
+/paddleocr/
+/paddlex/
+/pymupdf/
+backend/fastapi/
+backend/uvicorn/
+backend/fastapi_cli/
+backend/fastapi_cloud_cli/
+documents/paddle/
+documents/paddleocr/
+documents/paddlex/
+documents/pymupdf/
+*.dist-info/
+*.egg-info/
+
+# Large structure text dumps
+*_structure.txt
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database & runtime files
+database/*.db
+database/*.db-journal
+database/*.sqlite
+database/*.sqlite3
+
+# Flutter build artifacts & IDE configs
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.idea/
+frontend/*.iml
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
